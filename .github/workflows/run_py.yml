@@ -1,0 +1,25 @@
+name: fernando_test
+
+on: [workflow_dispatch]
+
+jobs:
+  fernando_test:
+    name: testing action
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: test/fernando_test
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Gen Keys
+        run: |
+          python3 test/fernando_test/script.py
+        shell: bash
