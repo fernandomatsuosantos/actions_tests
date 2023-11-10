@@ -16,7 +16,7 @@ runs:
       uses: actions/checkout@v4
       with:
         repository: 'fernandomatsuosantos/action_tests'
-        ref: 'v1'
+        ref: 'main'
 
     - name: Setup Python
       uses: actions/setup-python@v4
