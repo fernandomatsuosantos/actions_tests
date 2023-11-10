@@ -6,9 +6,9 @@ jobs:
   fernando_test:
     name: testing action
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: test/fernando_test
+    #defaults:
+      #run:
+        #working-directory: test/fernando_test
 
     steps:
       - name: Checkout
