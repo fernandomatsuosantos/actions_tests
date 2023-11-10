@@ -15,7 +15,7 @@ runs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        repository: 'fernandomatsuosantos/action_tests'
+        repository: 'fernandomatsuosantos/actions_tests'
         ref: 'main'
 
     - name: Setup Python
