@@ -22,4 +22,3 @@ jobs:
       - name: Run Python
         run: |
           python3 script.py
-        shell: bash
