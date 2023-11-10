@@ -14,8 +14,8 @@ runs:
   steps:
     - name: Checkout
       uses: actions/checkout@v4
-        with:
-          repository: 'fernandomatsuosantos/action_tests_2'
+      with:
+        repository: 'fernandomatsuosantos/action_tests_2'
 
     - name: Setup Python
       uses: actions/setup-python@v4
