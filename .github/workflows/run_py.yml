@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ./.github/actions/my-custom-action
+      - uses: fernandomatsuosantos/actions_tests@v1
